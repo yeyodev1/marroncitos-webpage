@@ -2,10 +2,11 @@
 @forward 'fonts.module.scss';
 
 @use "sass:color";
+@use "sass:meta";
 @use "sass:math";
 
 @function _to-percent($value) {
-  @if type-of($value) == 'number' and unit($value) == '%' {
+  @if meta.type-of($value) == 'number' and math.unit($value) == '%' {
     @return $value;
   }
   @return $value * 1%;
