@@ -5,7 +5,7 @@
 <template>
   <section class="the-hero">
     <div class="hero-background">
-      <img src="/Users/diegoreyes/.gemini/antigravity/brain/9779e9e2-913a-4412-b610-c1633fc9073d/marroncitos_stock_brownies_2_1774388509232.png" alt="Marroncitos Bakery" class="bg-image" />
+      <img src="../assets/images/hero-bg.png" alt="Marroncitos Bakery" class="bg-image" />
       <div class="hero-overlay"></div>
     </div>
 
@@ -28,7 +28,7 @@
 
         <div class="hero-visual">
           <div class="floating-card">
-            <img src="/Users/diegoreyes/.gemini/antigravity/brain/9779e9e2-913a-4412-b610-c1633fc9073d/marroncitos_stock_brownies_1_1774388494006.png" alt="Detail Brownie" class="detail-image" />
+            <img src="../assets/images/hero-detail.png" alt="Detail Brownie" class="detail-image" />
             <div class="card-tag">Receta Original</div>
           </div>
           <div class="experience-badge">
